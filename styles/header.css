@@ -1,0 +1,29 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 72px;
+  display: flex;
+  justify-content: center;
+  background-color: var(--green);
+  color: white;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+}
+
+.header-logo {
+  height: 80px;
+}
+
+.navigations{
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+  font-size: 1.5em;
+}

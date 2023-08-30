@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@400;500;700&family=Josefin+Sans:wght@400;500;700&family=Montserrat:wght@400;700&family=Roboto:wght@400;500;700&display=swap');
+
+:root {
+  --dark-brown: #bc6c25;
+  --brown: #dda15e;
+  --light-brown: #fefae0;
+  --dark-green: #283618;
+  --green: #606c38;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', Arial;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: var(--light-brown);
+}
+
+ul {
+  list-style-type: none;
+}
+
+.dark-brown{
+  font-family: 'Josefin Sans', sans-serif;
+  color: var(--dark-brown);
+  font-weight: 500;
+}

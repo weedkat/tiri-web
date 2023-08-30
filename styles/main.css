@@ -1,0 +1,74 @@
+main{
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+#intro{
+  width: 75vw;
+  height: 85vh;
+}
+
+.intro-grid-container{
+  display: grid;
+  grid-template-columns: 5fr 3fr;
+  gap: 20px;
+  width: 100%;
+  height: 100%;
+}
+
+.intro-tile-art{
+  background-image: url('../images/background-1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 10%;
+  grid-area: span 4;
+  box-shadow: 2px 2px 1px rgba(128, 128, 128, 0.1);
+}
+
+.intro-tile-introduction{
+  display: flex;
+  flex-direction: column;
+  grid-area: span 3;
+  border-top-right-radius: 50px;
+  padding: 50px 30px 30px 30px;
+  background-color: white;
+  box-shadow: 2px 2px 10px rgba(128, 128, 128, 0.1);
+}
+
+.introduction-title{
+  position: relative;
+  text-align: center;
+  font-family: 'Gluten', cursive;
+  font-size: 2.5em;
+  font-weight: 500;
+  margin-bottom: 80px;
+}
+
+.leaf-line{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 25px;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.introduction-description{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 1.5em;
+}
+
+.introduction-buttons{
+  display: flex;
+  justify-content: end;
+  margin: auto 0 0 0;
+}
+
+.intro-tile-socials{
+  border-bottom-right-radius: 50px;
+  background-color: var(--brown);
+}
+
